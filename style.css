@@ -1,0 +1,33 @@
+
+.color-muve{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(139, 95, 0, 0.649);
+    margin: 50px;
+
+    position: relative;
+    animation: colorMuve 2s ease infinite alternate;
+}
+
+@keyframes colorMuve {
+    0% {
+        left: 0;
+        background-color: red;
+    }
+    25% {
+        left: 200px;
+        background-color: darkmagenta;
+    }
+    50% {
+        top: 200px;
+        background-color: rgba(21, 50, 199, 0.533);
+    }
+    75%{
+        right: 200px;
+        background-color: blue;
+    }
+    100%{
+        left: 0;
+        background-color: yelloww;
+    }
+}
