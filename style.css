@@ -11,23 +11,23 @@
 
 @keyframes colorMuve {
     0% {
-        left: 0;
-        background-color: red;
+      transform: translate(0, 0);
+      background-color: red;
     }
     25% {
-        left: 200px;
-        background-color: darkmagenta;
+      transform: translate(50px, 0);
+      background-color: blue;
     }
     50% {
-        top: 200px;
-        background-color: rgba(21, 50, 199, 0.533);
+      transform: translate(50px, 50px);
+      background-color: green;
     }
-    75%{
-        right: 200px;
-        background-color: blue;
+    75% {
+      transform: translate(0, 50px);
+      background-color: yellow;
     }
-    100%{
-        left: 0;
-        background-color: yelloww;
+    100% {
+      transform: translate(0, 0);
+      background-color: red;
     }
-}
+  }
